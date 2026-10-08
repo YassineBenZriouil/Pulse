@@ -1,0 +1,97 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06060a"/>
+      <stop offset="1" stop-color="#0b0b1e"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="0.6" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#00f5d4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <g id="bars">
+      <rect x="-14" y="-150" width="28" height="150" rx="14"/>
+      <rect x="-14" y="-230" width="28" height="230" rx="14"/>
+      <rect x="-14" y="-95" width="28" height="95" rx="14"/>
+      <rect x="-14" y="-300" width="28" height="300" rx="14"/>
+      <rect x="-14" y="-130" width="28" height="130" rx="14"/>
+      <rect x="-14" y="-205" width="28" height="205" rx="14"/>
+      <rect x="-14" y="-75" width="28" height="75" rx="14"/>
+      <rect x="-14" y="-260" width="28" height="260" rx="14"/>
+      <rect x="-14" y="-165" width="28" height="165" rx="14"/>
+      <rect x="-14" y="-110" width="28" height="110" rx="14"/>
+      <rect x="-14" y="-245" width="28" height="245" rx="14"/>
+      <rect x="-14" y="-85" width="28" height="85" rx="14"/>
+      <rect x="-14" y="-190" width="28" height="190" rx="14"/>
+      <rect x="-14" y="-140" width="28" height="140" rx="14"/>
+      <rect x="-14" y="-280" width="28" height="280" rx="14"/>
+      <rect x="-14" y="-100" width="28" height="100" rx="14"/>
+      <rect x="-14" y="-175" width="28" height="175" rx="14"/>
+      <rect x="-14" y="-60" width="28" height="60" rx="14"/>
+      <rect x="-14" y="-215" width="28" height="215" rx="14"/>
+      <rect x="-14" y="-120" width="28" height="120" rx="14"/>
+      <rect x="-14" y="-255" width="28" height="255" rx="14"/>
+      <rect x="-14" y="-90" width="28" height="90" rx="14"/>
+      <rect x="-14" y="-155" width="28" height="155" rx="14"/>
+      <rect x="-14" y="-70" width="28" height="70" rx="14"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="310" r="320" fill="url(#glow)"/>
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+  </g>
+
+  <!-- circular spectrum -->
+  <g transform="translate(600 310) scale(0.78)">
+    <g fill="url(#bar)">
+      <use href="#bars" transform="rotate(0)"/>
+      <use href="#bars" transform="rotate(15)"/>
+      <use href="#bars" transform="rotate(30)"/>
+      <use href="#bars" transform="rotate(45)"/>
+      <use href="#bars" transform="rotate(60)"/>
+      <use href="#bars" transform="rotate(75)"/>
+      <use href="#bars" transform="rotate(90)"/>
+      <use href="#bars" transform="rotate(105)"/>
+      <use href="#bars" transform="rotate(120)"/>
+      <use href="#bars" transform="rotate(135)"/>
+      <use href="#bars" transform="rotate(150)"/>
+      <use href="#bars" transform="rotate(165)"/>
+      <use href="#bars" transform="rotate(180)"/>
+      <use href="#bars" transform="rotate(195)"/>
+      <use href="#bars" transform="rotate(210)"/>
+      <use href="#bars" transform="rotate(225)"/>
+      <use href="#bars" transform="rotate(240)"/>
+      <use href="#bars" transform="rotate(255)"/>
+      <use href="#bars" transform="rotate(270)"/>
+      <use href="#bars" transform="rotate(285)"/>
+      <use href="#bars" transform="rotate(300)"/>
+      <use href="#bars" transform="rotate(315)"/>
+      <use href="#bars" transform="rotate(330)"/>
+      <use href="#bars" transform="rotate(345)"/>
+    </g>
+    <circle r="118" fill="#06060a" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+    <circle r="104" fill="none" stroke="rgba(124,92,255,0.5)" stroke-width="1.5" stroke-dasharray="4 10"/>
+    <rect x="-16" y="-16" width="32" height="32" rx="10" fill="url(#mark)"/>
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="30 14"/>
+  </g>
+
+  <!-- brand -->
+  <g transform="translate(70 72)">
+    <rect width="40" height="40" rx="13" fill="url(#mark)"/>
+    <circle cx="20" cy="20" r="9" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="34 20"/>
+    <text x="58" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="10" fill="#ececf2">PULSE</text>
+  </g>
+
+  <text x="600" y="600" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#8e8ea3">Audio visualization studio — live FFT, 7 engines, deterministic video export</text>
+</svg>

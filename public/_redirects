@@ -1,0 +1,2 @@
+# SPA fallback: unknown paths serve index.html, client router renders the 404 view.
+/*    /index.html   200
